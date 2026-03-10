@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: "3.9"
 
 services:
@@ -6,4 +7,14 @@ services:
     ports:
       - "5000:5000"
     env_file:
+=======
+version: "3.9"
+
+services:
+  flask-app:
+    build: .
+    ports:
+      - "5000:5000"
+    env_file:
+>>>>>>> dba98066c0f78d24bcbcf7121335cee434aca3ad
       - .env
